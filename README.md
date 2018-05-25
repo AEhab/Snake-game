@@ -34,5 +34,12 @@ This void function called in the beginning of the code to set some beginning val
 
 ### Function play:
 This void function is the most important function which take the input from the user and change the direction of the snake through changing the direction of his head, first it calls update screen function then shifts move then it delays for a time which is considered as the speed of the game. Also it checks that the snake didn’t eat itself or hits the borders and update the apple position if it is on the body of the snake through generate food function.
+
 ## Code Flowchart
 ![alt text](resources/Code_flow_chart.png)
+
+## Screenshot of the code
+![alt text](resources/game_screeshot.png)
+
+## How to use
+To run the code you will need to install turbo c++ or you can just check fot this link to run the code on codeblocks [here](https://stackoverflow.com/questions/20313534/how-to-use-graphics-h-in-codeblocks)
