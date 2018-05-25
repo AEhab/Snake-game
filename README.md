@@ -39,7 +39,7 @@ This void function is the most important function which take the input from the 
 ![alt text](resources/Code_flow_chart.png)
 
 ## Screenshot of the code
-![alt text](resources/game_screeshot.png)
+![alt text](resources/game_screenshot.png)
 
 ## How to use
 To run the code you will need to install turbo c++ or you can just check fot this link to run the code on codeblocks [here](https://stackoverflow.com/questions/20313534/how-to-use-graphics-h-in-codeblocks)
