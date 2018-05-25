@@ -9,7 +9,7 @@ Our code is consisting of one struct and some functions.
 Cord is an abbreviation of coordinate. Its data structure has x, x-coordinate, and y, y-coordinate, integers numbers. Two instances of data structure were created to achieve the purpose of implementing.
 
 ### Function Generate food:
-It`s a void function for generating food in the form of circles with a red colour using random sequence using a parameter time (built-in function). The border of the screen is put into consideration so it doesn`t appear outside the screen. Small modifications were also done to align the food with the same path of the snake.
+It is a void function for generating food in the form of circles with a red colour using random sequence using a parameter time (built-in function). The border of the screen is put into consideration so it does not appear outside the screen. Small modifications were also done to align the food with the same path of the snake.
 
 ### Function Update food:
 It is a void function. When the snake eats the food (apple) this function need to clean the food from position and generate a different one by calling the previous function.
@@ -34,3 +34,5 @@ This void function called in the beginning of the code to set some beginning val
 
 ### Function play:
 This void function is the most important function which take the input from the user and change the direction of the snake through changing the direction of his head, first it calls update screen function then shifts move then it delays for a time which is considered as the speed of the game. Also it checks that the snake didn’t eat itself or hits the borders and update the apple position if it is on the body of the snake through generate food function.
+## Code Flowchart
+![alt text](resources/Code_flow_chart.png)
